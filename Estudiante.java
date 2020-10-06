@@ -9,15 +9,16 @@ public class Estudiante
 {
     private String nombre;
     private int nota;
+    private String dni;
      
 
     /**
      * Constructor  
      */
-    public Estudiante(String queNombre, int queNota)    {
+    public Estudiante(String queNombre, int queNota, String dni)    {
         nombre = queNombre;
         nota = queNota;
-         
+        dni = dni; 
     }
 
     /**
